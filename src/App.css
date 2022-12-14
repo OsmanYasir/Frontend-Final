@@ -2,6 +2,10 @@
   margin: 0;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .image {
   width: 60vw;
   height: 60vh;
@@ -30,7 +34,22 @@
   position: relative;
 }
 .logo {
+  margin-top: 1em;
   position: absolute;
   top: -5%;
   left: 3%;
+}
+.logo2 {
+  margin-top: 7em;
+  position: absolute;
+  top: -5%;
+  left: 3%;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.img2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
