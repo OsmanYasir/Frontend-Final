@@ -22,7 +22,7 @@ const Image = () => {
     return (
         <div className='position'>
             <h1>KYRGYZSTAN</h1>
-            <p>Click the buttons to travel around KYRGZSTAN !</p>
+            <p>Click the buttons to change images</p>
             <br />
             <img src={allImages[selectedImage]} alt="flag" className='image' />
             <div>
